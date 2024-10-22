@@ -1,0 +1,117 @@
+/* styles.css */
+
+/* Importar la fuente Montserrat desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px;
+  text-align: center; /* Centrar elementos en línea como los botones */
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button#iniciar {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #28a745;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+button#iniciar:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+button#terminar {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button#terminar:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+/* Contenedor de mensajes */
+#mensajes {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  
+  /* Convertir #mensajes en un contenedor flex para alinear mensajes */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinear mensajes a la izquierda por defecto */
+  
+  text-align: left; /* Asegurar que el texto dentro de los mensajes está alineado a la izquierda */
+}
+
+#mensajes p {
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 80%;
+  word-wrap: break-word;
+  display: block;
+}
+
+/* Estilos para mensajes del usuario */
+#mensajes p.user {
+  background-color: #d1e7dd;
+  align-self: flex-start; /* Alinear a la izquierda */
+}
+
+/* Estilos para mensajes del agente */
+#mensajes p.agent {
+  background-color: #f8d7da;
+  align-self: flex-end; /* Alinear a la derecha */
+}
+
+/* Estilos para mensajes del sistema */
+#mensajes p.system {
+  background-color: #e2e3e5;
+  color: #6c757d;
+  font-style: italic;
+  text-align: center;
+  align-self: center; /* Centrar en el contenedor flex */
+}
+
+/* Estilos para mensajes de error */
+#mensajes p.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  font-weight: bold;
+  align-self: center; /* Centrar en el contenedor flex */
+}
+
+/* Estilos para mensajes tentativos */
+#mensajes p.tentativo {
+  background-color: #fff3cd;
+  color: #856404;
+  font-style: italic;
+  align-self: center; /* Centrar en el contenedor flex */
+}
+
+  
+  
+  
+  
+  
