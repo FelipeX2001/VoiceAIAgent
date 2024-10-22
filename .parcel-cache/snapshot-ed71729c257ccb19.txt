@@ -26,7 +26,7 @@
 94C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133740463420059192 0
 52C:\Users\ACER\Desktop\VoiceAIAgent\public\index.html133740500822217974 0
 64C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\is-json\index.js133740463396437217 0
-47C:\Users\ACER\Desktop\VoiceAIAgent\package.json133740509544888540 0
+47C:\Users\ACER\Desktop\VoiceAIAgent\package.json133740539022249266 0
 69C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\ordered-binary\assets133740463401413705 1
 126C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133740463486180147 0
 87C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\mdn-data\package.json133740463436503469 0
