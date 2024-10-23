@@ -73,7 +73,7 @@ botonIniciar.addEventListener("click", async () => {
 
     // Iniciar la conversación
     conversation = await Conversation.startSession({
-      agentId: "Kl90eWakGKseixCPuLaJ", // Reemplaza con tu propio agentId
+      agentId: "rhAH8UxD3uR19kPtEdmq", // Reemplaza con tu propio agentId
       onConnect: () => {
         console.log("Conectado al agente.");
         agregarMensaje("Conectado al agente.", "system");

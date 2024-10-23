@@ -7,7 +7,7 @@ async function iniciarConversacion() {
 
     // Iniciar la conversación con el Agent ID
     const conversation = await Conversation.startSession({
-      agentId: "Kl90eWakGKseixCPuLaJ",
+      agentId: "rhAH8UxD3uR19kPtEdmq",
       onConnect: () => {
         console.log("Conectado al agente.");
       },

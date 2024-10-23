@@ -1,5 +1,5 @@
 5937
-39C:\Users\ACER\Desktop\VoiceAIAgent\dist133740559009826918 1
+39C:\Users\ACER\Desktop\VoiceAIAgent\dist133741269757665844 1
 101C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\lib\svgo133740463475425443 1
 47C:\Users\ACER\Desktop\VoiceAIAgent\index.js.map133740540438380607 0
 101C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\posthtml\node_modules\posthtml-parser\dist\index.d.ts133740463434879913 0
@@ -13,7 +13,7 @@
 60C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite133740463519785052 1
 69C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\browserslist\parse.js133740463415317057 0
 82C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\htmlparser2\lib\Tokenizer.d.ts.map133740463397857792 0
-43C:\Users\ACER\Desktop\VoiceAIAgent\index.js133740540438330830 0
+43C:\Users\ACER\Desktop\VoiceAIAgent\index.js133740973376973767 0
 64C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\mdn-data\LICENSE133740463398257822 0
 93C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@swc\helpers\_\_write_only_error\package.json133740463421354537 0
 97C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-svgo\node_modules\svgo\lib\svgo133740463466831831 1
@@ -31,11 +31,11 @@
 58C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\is-extglob133740463400548450 1
 92C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\css-page-break.js133740463423709740 0
 54C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@lezer133740463391119188 1
-42C:\Users\ACER\Desktop\VoiceAIAgent\main.js133740465980575674 0
+42C:\Users\ACER\Desktop\VoiceAIAgent\main.js133740983070203439 0
 86C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\runtime-js\src\helpers\browser133740463424189840 1
 86C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\utility-types\dist\mapped-types.js.map133740463406160182 0
 64C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\is-json\index.js133740463396437217 0
-47C:\Users\ACER\Desktop\VoiceAIAgent\package.json133740559007045065 0
+47C:\Users\ACER\Desktop\VoiceAIAgent\package.json133741269632828396 0
 69C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\ordered-binary\assets133740463401413705 1
 126C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\node\WhiteSpace.js133740463486180147 0
 87C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\mdn-data\package.json133740463436503469 0
@@ -66,7 +66,7 @@
 68C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\env-paths\index.d.ts133740463402349031 0
 41C:\Users\ACER\Desktop\VoiceAIAgent\public133740461674600202 1
 94C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\htmlnano\lib\modules\removeAttributeQuotes.mjs133740463420059192 0
-52C:\Users\ACER\Desktop\VoiceAIAgent\public\index.html133740500822217974 0
+52C:\Users\ACER\Desktop\VoiceAIAgent\public\index.html133740973413073514 0
 68C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\lmdb\dependencies\v8133740463421704626 1
 100C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\lib\syntax\scope\value.js133740463503601027 0
 55C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\globals133740463410011185 1
@@ -75,7 +75,7 @@
 60C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\entities\lib133740463398347809 1
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\PA.js133740463503560996 0
 96C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@babel\highlight\node_modules\color-name\LICENSE133740463434058437 0
-50C:\Users\ACER\Desktop\VoiceAIAgent\public\index.js133740488086938456 0
+50C:\Users\ACER\Desktop\VoiceAIAgent\public\index.js133740980016944510 0
 114C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\config133740463485990137 1
 58C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\css-select133740463409931179 1
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\DO.js133740463428346696 0
@@ -210,7 +210,6 @@
 95C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\wasm-multi-memory.js133740463518283843 0
 88C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\lmdb\dependencies\lz4\lib\dll\liblz4.def133740463420509194 0
 78C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\css-what\lib\commonjs\types.js133740463399293061 0
-48C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.js133740559009756865 0
 62C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\dom-serializer133740463397082508 1
 95C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\lib\syntax\create.js133740463486740083 0
 97C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\css-in-out-of-range.js133740463422329212 0
@@ -2939,7 +2938,7 @@
 94C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\dist\csstree.esm.js133740463487105242 0
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\GT.js133740463446202502 0
 88C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\dist\data.cjs133740463440024825 0
-50C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.html133740559009361774 0
+50C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.html133741269757497817 0
 90C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\dist\version.js133740463503796292 0
 88C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\cjs\convertor133740463445547243 1
 87C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\csso\node_modules\css-tree\cjs\data.cjs133740463438899450 0
@@ -3854,7 +3853,6 @@
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\BW.js133740463415427064 0
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\BY.js133740463415497076 0
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\CA.js133740463415637161 0
-62C:\Users\ACER\Desktop\VoiceAIAgent\dist\public.0ba7c674.js.map133740464962890077 0
 113C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\syntax\scope133740463485143743 1
 79C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\regions\CH.js133740463416192378 0
 100C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\keyboardevent-charcode.js133740463485143743 0
@@ -4339,6 +4337,7 @@
 84C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\stream.js133740463514766665 0
 123C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\definition-syntax\parse.js133740463477720570 0
 85C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\streams.js133740463514776768 0
+61C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.415b14a0.js.map133741269757640724 0
 99C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\subresource-integrity.js133740463514906785 0
 117C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-svgo\node_modules\mdn-data\css\syntaxes.schema.json133740463440920095 0
 85C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\caniuse-lite\data\features\svg-css.js133740463514936749 0
@@ -5477,7 +5476,6 @@
 118C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeComments.js133740463447657731 0
 114C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDesc.js133740463447732958 0
 117C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeDoctype.js133740463448132953 0
-52C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.js.map133740559009806916 0
 123C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEditorsNSData.js133740463448252995 0
 120C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyAttrs.js133740463448492961 0
 119C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\removeEmptyText.js133740463449673643 0
@@ -5616,7 +5614,6 @@
 116C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\parser\index.js133740463453701266 0
 78C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\node-resolver-core\lib133740463411125745 1
 117C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\generic.js133740463449203789 0
-58C:\Users\ACER\Desktop\VoiceAIAgent\dist\public.0ba7c674.js133740464962850088 0
 91C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\core\test\fixtures\parcel\yarn.lock133740463491873201 0
 121C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\match-graph.js133740463462124070 0
 115C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\lexer\match.js133740463463232567 0
@@ -5932,7 +5929,10 @@
 63C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\.bin\parcel.cmd133740463520345040 0
 57C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\.bin\svgo133740463520345040 0
 61C:\Users\ACER\Desktop\VoiceAIAgent\node_modules\.bin\svgo.ps1133740463520345040 0
-58C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.c180ac0f.css133740559009211597 0
-62C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.c180ac0f.css.map133740559009271652 0
-57C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.f18de3a7.js133740559009211597 0
-61C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.f18de3a7.js.map133740559009271652 0
+57C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.415b14a0.js133741269757497817 0
+58C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.aa5eb16b.css133741269757497817 0
+62C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.aa5eb16b.css.map133741269757640724 0
+58C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.c180ac0f.css133740990829956649 0
+62C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.c180ac0f.css.map133740990830056720 0
+57C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.f18de3a7.js133740990829996639 0
+61C:\Users\ACER\Desktop\VoiceAIAgent\dist\index.f18de3a7.js.map133740990830056720 0
