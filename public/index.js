@@ -76,13 +76,15 @@ botonIniciar.addEventListener("click", async () => {
       agentId: "rhAH8UxD3uR19kPtEdmq", // Reemplaza con tu propio agentId
       onConnect: () => {
         console.log("Conectado al agente.");
-        agregarMensaje("Conectado al agente.", "system");
+        //agregarMensaje("Conectado al agente.", "system");
       },
       onDisconnect: () => {
         console.log("Desconectado del agente.");
-        agregarMensaje("Desconectado del agente.", "system");
+        //agregarMensaje("Desconectado del agente.", "system");
       },
       onMessage: (message) => {
+        console.log(message)
+        agregarMensaje(message.message)
         console.log("Mensaje recibido:", message);
         if (message.isFinal) {
           // Eliminar mensaje tentativo si existe
@@ -113,13 +115,13 @@ botonIniciar.addEventListener("click", async () => {
         // Acceder a propiedades específicas del objeto status
         const connected = status.connected ? "Conectado" : "Desconectado";
         const details = status.details ? status.details : "Sin detalles";
-        agregarMensaje(`Estado de conexión: ${connected} - ${details}`, "system");
+        //agregarMensaje(`Estado de conexión: ${connected} - ${details}`, "system");
       },
       onModeChange: (mode) => {
         console.log("Mode Change:", mode);
         // Acceder a propiedades específicas del objeto mode
         const currentMode = mode.currentMode ? mode.currentMode : "Desconocido";
-        agregarMensaje(`Modo del agente: ${currentMode}`, "system");
+        //agregarMensaje(`Modo del agente: ${currentMode}`, "system");
       },
     });
   } catch (error) {
