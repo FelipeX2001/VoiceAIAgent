@@ -1,18 +1,24 @@
-/* styles.css */
-
 /* Importar la fuente Montserrat desde Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
   text-align: center; /* Centrar elementos en línea como los botones */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
 }
 
 /* Ajustes para pantallas móviles */
 @media (max-width: 768px) {
   body {
     margin: 10px;
+    padding: 0;
   }
 
   h1 {
@@ -23,13 +29,14 @@ body {
   button {
     width: 100%;
     margin: 5px 0;
-    font-size: 18px;
+    font-size: 16px;
     padding: 12px 0;
   }
 
   #mensajes {
-    max-height: 200px;
+    max-height: 50vh; /* Ajuste de altura del contenedor de mensajes */
     padding: 8px;
+    width: 100%; /* Asegura que ocupe todo el ancho en móviles */
   }
 
   #mensajes p {
@@ -82,27 +89,27 @@ button#terminar:disabled {
   margin-top: 20px;
   border: 1px solid #ccc;
   padding: 10px;
-  max-height: 300px;
+  max-height: 60vh; /* Ajuste para mantener el contenido visible en pantallas pequeñas */
   overflow-y: auto;
   background-color: #fff;
   border-radius: 5px;
+  width: 90%; /* Ajusta el ancho al 90% del contenedor */
   
-  /* Convertir #mensajes en un contenedor flex para alinear mensajes */
+  /* Flexbox para alinear mensajes */
   display: flex;
   flex-direction: column;
-  align-items: flex-start; /* Alinear mensajes a la izquierda por defecto */
-  
-  text-align: left; /* Asegurar que el texto dentro de los mensajes está alineado a la izquierda */
+  align-items: flex-start;
+  text-align: left;
 }
 
 #mensajes p {
   margin: 5px 0;
   padding: 10px;
   border-radius: 5px;
-  max-width: 80%;
+  max-width: 80%; /* Mantiene los mensajes dentro del contenedor */
   word-wrap: break-word;
   display: block;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Añadir sombra para profundidad */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para mensajes del usuario */
@@ -123,7 +130,7 @@ button#terminar:disabled {
   color: #6c757d;
   font-style: italic;
   text-align: center;
-  align-self: center; /* Centrar en el contenedor flex */
+  align-self: center; /* Centrar en el contenedor */
 }
 
 /* Estilos para mensajes de error */
@@ -131,7 +138,7 @@ button#terminar:disabled {
   background-color: #f8d7da;
   color: #721c24;
   font-weight: bold;
-  align-self: center; /* Centrar en el contenedor flex */
+  align-self: center;
 }
 
 /* Estilos para mensajes tentativos */
@@ -139,14 +146,14 @@ button#terminar:disabled {
   background-color: #fff3cd;
   color: #856404;
   font-style: italic;
-  align-self: center; /* Centrar en el contenedor flex */
+  align-self: center;
 }
 
 /* Mejoras adicionales para una mejor experiencia en móviles */
 @media (max-width: 768px) {
   button {
-    font-size: 18px;
-    padding: 12px 0;
+    font-size: 16px;
+    padding: 10px;
   }
 
   #mensajes p {
@@ -154,10 +161,3 @@ button#terminar:disabled {
     padding: 8px;
   }
 }
-
-
-  
-  
-  
-  
-  
