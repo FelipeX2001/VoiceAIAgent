@@ -58,6 +58,7 @@ button#iniciar {
   background-color: #28a745;
   color: #fff;
   margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button#iniciar:disabled {
@@ -68,6 +69,7 @@ button#iniciar:disabled {
 button#terminar {
   background-color: #dc3545;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button#terminar:disabled {
