@@ -61,11 +61,63 @@ function manejarMensajeTentativo(message) {
   mensajesDiv.scrollTop = mensajesDiv.scrollHeight; // Auto scroll
 }
 
+// Función para manejar la clasificación de mensajes finales
+async function manejarMensajeFinal(message) {
+  try {
+    // Obtener el volumen de entrada
+    const inputVolume = await conversation.getInputVolume();
+    console.log(`Volumen de Entrada: ${inputVolume}`);
+
+    const THRESHOLD = 0.3; // Ajusta este valor según sea necesario
+
+    if (inputVolume < THRESHOLD) {
+      console.log("Volumen de entrada demasiado bajo, mensaje ignorado.");
+      // Opcional: Puedes agregar lógica adicional aquí si lo deseas
+      return;
+    }
+
+    if (message.isUser === true) {
+      agregarMensaje(`Tú: ${message.text}`, "user");
+      console.log("Mensaje de usuario agregado:", message.text);
+    } else if (message.isUser === false) {
+      agregarMensaje(`Agente: ${message.text}`, "agent");
+      console.log("Mensaje del agente agregado:", message.text);
+    } else {
+      // Si 'isUser' no está definido, asumir mensaje del agente
+      agregarMensaje(`Agente: ${message.text}`, "agent");
+      console.log("Mensaje del agente agregado (asumiendo 'isUser' no definido):", message.text);
+    }
+
+    // Eliminar mensajes tentativos y 'default' si existen
+    eliminarMensajes(["tentativo", "default"]);
+  } catch (error) {
+    console.error("Error al manejar el mensaje final:", error);
+    agregarMensaje(`Error al procesar el mensaje: ${error.message || error}`, "error");
+  }
+}
+
+// Función para eliminar mensajes por clase
+function eliminarMensajes(clases) {
+  clases.forEach(clase => {
+    const elementos = mensajesDiv.querySelectorAll(`.${clase}`);
+    elementos.forEach(elem => {
+      elem.remove();
+      console.log(`Mensaje con clase "${clase}" eliminado.`);
+    });
+  });
+}
+
 // Manejar el clic en el botón de iniciar conversación
 botonIniciar.addEventListener("click", async () => {
   try {
-    // Solicitar permiso para usar el micrófono
-    await navigator.mediaDevices.getUserMedia({ audio: true });
+    // Solicitar permiso para usar el micrófono con restricciones de audio para reducir la sensibilidad
+    await navigator.mediaDevices.getUserMedia({
+      audio: {
+        noiseSuppression: true,       // Supresión de ruido
+        echoCancellation: true,       // Cancelación de eco
+        autoGainControl: false         // Desactivar control automático de ganancia
+      }
+    });
     console.log("Permiso de micrófono otorgado.");
 
     botonIniciar.disabled = true;
@@ -74,8 +126,11 @@ botonIniciar.addEventListener("click", async () => {
     // Iniciar la conversación
     conversation = await Conversation.startSession({
       agentId: "rhAH8UxD3uR19kPtEdmq", // Reemplaza con tu propio agentId
-      onConnect: () => {
+      onConnect: async () => {
         console.log("Conectado al agente.");
+        // Configurar el volumen de salida a -30 dB
+        await conversation.setVolume({ volume: 1 }); // 1 es -30 dB
+        console.log("Volumen de salida establecido a -30 dB.");
         //agregarMensaje("Conectado al agente.", "system");
       },
       onDisconnect: () => {
