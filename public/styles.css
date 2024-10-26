@@ -53,10 +53,11 @@ h1 {
 
 button {
   padding: 10px 20px;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px; /* Corregido '20PX' a '20px' */
   font-size: 16px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Suaviza el cambio de color */
 }
@@ -92,36 +93,38 @@ button#terminar:disabled {
   max-height: 60vh; /* Ajuste para mantener el contenido visible en pantallas pequeñas */
   overflow-y: auto;
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 10px;
   width: 90%; /* Ajusta el ancho al 90% del contenedor */
   
   /* Flexbox para alinear mensajes */
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-start; /* Alinear por defecto a la izquierda */
   text-align: left;
 }
 
 #mensajes p {
   margin: 5px 0;
-  padding: 10px;
-  border-radius: 5px;
+  padding: 10px 15px; /* Aumentado el padding para mejor apariencia */
+  border-radius: 20px; /* Aumentar el radio para burbujas */
   max-width: 80%; /* Mantiene los mensajes dentro del contenedor */
   word-wrap: break-word;
-  display: block;
+  display: inline-block; /* Asegura que el ancho se ajuste al contenido */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilos para mensajes del usuario */
 #mensajes p.user {
-  background-color: #d1e7dd;
-  align-self: flex-start; /* Alinear a la izquierda */
+  background-color: #e0f7fa; /* Azul muy suave, casi blanco */
+  margin-left: auto; /* Alinear a la derecha */
+  text-align: right; /* Alinear el texto a la derecha */
 }
 
 /* Estilos para mensajes del agente */
 #mensajes p.agent {
-  background-color: #f8d7da;
-  align-self: flex-end; /* Alinear a la derecha */
+  background-color: #f1f0f0; /* Color gris suave */
+  margin-right: auto; /* Alinear a la izquierda */
+  text-align: left; /* Alinear el texto a la izquierda */
 }
 
 /* Estilos para mensajes del sistema */
@@ -131,6 +134,7 @@ button#terminar:disabled {
   font-style: italic;
   text-align: center;
   align-self: center; /* Centrar en el contenedor */
+  border-radius: 10px; /* Mantener el radio consistente */
 }
 
 /* Estilos para mensajes de error */
@@ -139,6 +143,7 @@ button#terminar:disabled {
   color: #721c24;
   font-weight: bold;
   align-self: center;
+  border-radius: 10px; /* Mantener el radio consistente */
 }
 
 /* Estilos para mensajes tentativos */
@@ -147,6 +152,7 @@ button#terminar:disabled {
   color: #856404;
   font-style: italic;
   align-self: center;
+  border-radius: 10px; /* Mantener el radio consistente */
 }
 
 /* Mejoras adicionales para una mejor experiencia en móviles */
@@ -158,6 +164,6 @@ button#terminar:disabled {
 
   #mensajes p {
     font-size: 14px;
-    padding: 8px;
+    padding: 8px 12px; /* Ajuste de padding para móviles */
   }
 }
